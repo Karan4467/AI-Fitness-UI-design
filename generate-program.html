@@ -122,11 +122,12 @@
         const userStatusElement = document.getElementById('user-status');
 
         // Example of changing status (can be triggered by events later)
-        // setTimeout(() => {
-        //     aiStatusElement.textContent = 'Active';
-        //     aiStatusElement.previousElementSibling.classList.remove('waiting');
-        //     aiStatusElement.previousElementSibling.classList.add('ready');
-        // }, 3000);
+        setTimeout(() => {
+            aiStatusElement.textContent = 'Active';
+            aiStatusElement.previousElementSibling.classList.remove('waiting');
+            aiStatusElement.previousElementSibling.classList.add('ready');
+        }, 3000);
     </script>
 </body>
 </html>
+ 
